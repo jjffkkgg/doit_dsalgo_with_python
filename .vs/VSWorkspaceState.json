@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\chap01"
+    "\\chap02",
+    "\\chap02\\chap2_ts"
   ],
-  "SelectedNode": "\\chap01",
+  "SelectedNode": "\\chap02\\chap2_ts\\card_conv_ts.py",
   "PreviewInSolutionExplorer": false
 }

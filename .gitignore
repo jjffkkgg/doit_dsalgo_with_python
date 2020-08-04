@@ -1,5 +1,8 @@
 #jupyter_notebooks
-.ipynb_checkpoints
+*.ipynb_checkpoints
 
 #python cache
-.pyc				
+*.pyc
+
+#cache_directory
+/__pycache__
