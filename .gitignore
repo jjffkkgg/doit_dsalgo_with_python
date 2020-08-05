@@ -6,3 +6,4 @@
 
 #cache_directory
 /__pycache__
+/.vs/*
