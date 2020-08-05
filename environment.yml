@@ -1,9 +1,9 @@
 name: dsalgo
 channels:
-	-  conda-forge
-	-  defaults
+  -  conda-forge
+  -  defaults
 dependencies:
-	-  pip
-	-  matplotlib
-	-  numpy
-	-  scipy
+  -  pip
+  -  matplotlib
+  -  numpy
+  -  scipy
