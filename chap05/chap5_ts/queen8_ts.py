@@ -23,11 +23,12 @@ def put() -> None:
 
 #%%
 def set(i: int) -> None:
+    global count
     for j in range(8):
         if (not flag_a[j]) and (not flag_b[i+j]) and (not flag_c[i-j+7]):
             pos[i] = j
             if i == 7:
-                #count += 1  왜 오류?
+                count += 1
                 put()
             else:
                 flag_a[j] = True
@@ -40,3 +41,4 @@ def set(i: int) -> None:
 #%%
 if __name__ == '__main__':
     set(0)
+    print(f'solution 갯수: {count}')
